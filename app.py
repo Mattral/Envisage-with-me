@@ -1,9 +1,9 @@
 import streamlit as st
-import openai
-from datetime import datetime
+import openai from pages
+from pages.datetime import datetime
 from streamlit.components.v1 import html
-import pandas as pd
-import csv
+import pandas as pd from pages
+import csv from pages
 st.set_page_config(page_title="Envisage with me")
 
 
