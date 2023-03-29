@@ -111,7 +111,7 @@ st.markdown(
 if input_text:
     prompt = "Brainstorm ideas for "+str(input_text)
     if prompt:
-        openai.api_key = st.secrets["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"]
+        openai.api_key = st.secrets["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"]
         response = openai.Completion.create(engine="text-davinci-002", prompt=prompt, max_tokens=150)
         brainstorming_output = response['choices'][0]['text']
         today = datetime.today().strftime('%Y-%m-%d')
